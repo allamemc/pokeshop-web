@@ -18,3 +18,29 @@
 		}
 	}
 }
+
+@media (max-width: 1140px) {
+	.flex-clases {
+		flex-direction: column;
+	}
+}
+
+.flex-clases {
+	display: flex;
+	justify-content: center;
+}
+.profesor {
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.profesor.shifu {
+	background-image: url('https://images.wikidexcdn.net/mwuploads/wikidex/0/0a/latest/20141130014622/Profesor_Oak_%28XY%29.png');
+}
+.profesor.rockie {
+	background-image: url('https://i.pinimg.com/736x/bd/0c/ce/bd0ccef7b78bd3a0904347aeedf61fa5.jpg');
+}
+.profesor.thai {
+	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ceca9bb7-d2c7-45f3-8f79-b8dd137839d2/ddtnsya-618235bf-837c-4f13-94f6-37524ec5a718.png/v1/fill/w_490,h_384/misty_pokemon_render_png_by_sispros_ddtnsya-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mzg0IiwicGF0aCI6IlwvZlwvY2VjYTliYjctZDJjNy00NWYzLThmNzktYjhkZDEzNzgzOWQyXC9kZHRuc3lhLTYxODIzNWJmLTgzN2MtNGYxMy05NGY2LTM3NTI0ZWM1YTcxOC5wbmciLCJ3aWR0aCI6Ijw9NDkwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ccICt6W_gmRfs2yQmHrbujJJJwDcUmXc6f8bzVLqOXc');
+}
