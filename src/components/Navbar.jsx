@@ -28,29 +28,16 @@ export default function Navbar() {
 							<Link to='/'>Inicio</Link>
 						</li>
 						<li>
-							<details>
-								<summary>Pokemons</summary>
-								<ul className='p-2 bg-primary '>
-									<li>
-										<Link to='/'>Pikachu</Link>
-									</li>
-									<li>
-										<Link to='/'>Charmander</Link>
-									</li>
-									<li>
-										<Link to='/'>Bulbasur</Link>
-									</li>
-								</ul>
-							</details>
+							<Link to='/pokemons'>Pokemons</Link>
 						</li>
 						<li>
 							<Link to='/servicios'>Servicios</Link>
 						</li>
 						<li>
-							<Link to='/'>Sobre Nosotros</Link>
+							<Link to='/about'>Sobre Nosotros</Link>
 						</li>
 						<li>
-							<Link to='/'>Contacto</Link>
+							<Link to='/contact'>Contacto</Link>
 						</li>
 					</ul>
 				</div>
@@ -64,29 +51,16 @@ export default function Navbar() {
 						<Link to='/'>Inicio</Link>
 					</li>
 					<li>
-						<details>
-							<summary>Pokemons</summary>
-							<ul className='p-2 bg-primary '>
-								<li>
-									<Link to='/'>Pikachu</Link>
-								</li>
-								<li>
-									<Link to='/'>Charmander</Link>
-								</li>
-								<li>
-									<Link to='/'>Bulbasur</Link>
-								</li>
-							</ul>
-						</details>
+						<Link to='/pokemons'>Pokemons</Link>
 					</li>
 					<li>
 						<Link to='/servicios'>Servicios</Link>
 					</li>
 					<li>
-						<Link to='/'>Sobre Nosotros</Link>
+						<Link to='/about'>Sobre Nosotros</Link>
 					</li>
 					<li>
-						<Link to='/'>Contacto</Link>
+						<Link to='/contact'>Contacto</Link>
 					</li>
 				</ul>
 			</div>

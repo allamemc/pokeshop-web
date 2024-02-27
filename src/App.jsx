@@ -3,6 +3,10 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Servicios from './pages/Servicios'
 
+import About from './pages/About'
+import Contacto from './pages/Contacto'
+import Pokemons from './pages/Pokemons'
+
 function App() {
 	return (
 		<>
@@ -10,8 +14,10 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />} />
+					<Route path='/pokemons' element={<Pokemons />} />
 					<Route path='/servicios' element={<Servicios />} />
-					<Route path='/users' element={<h1>dwadwa</h1>} />
+					<Route path='/about' element={<About />} />
+					<Route path='/contact' element={<Contacto />} />
 				</Routes>
 			</Router>
 		</>

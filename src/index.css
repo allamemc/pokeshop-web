@@ -8,3 +8,13 @@
 	box-sizing: border-box;
 	scrollbar-width: none;
 }
+
+@media (width <= 1250px) {
+	.pokemons-div {
+		flex-direction: column;
+
+		& img {
+			width: 100%;
+		}
+	}
+}
